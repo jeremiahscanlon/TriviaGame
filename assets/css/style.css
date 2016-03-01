@@ -1,0 +1,112 @@
+body{
+	font-family: 'Josefin Slab', serif !important;
+	color: #777777 !important;
+    background-image: url("../images/confetti_back.jpg");
+}
+
+p {
+	font-size: 20px;
+}
+
+ul {
+	padding: 0px;
+}
+
+#logo1, #logo2, #logo3, #logo4 {
+	position: absolute;
+}
+
+.navbar-content {
+	max-width: 960px;
+}
+
+.navbar-brand {
+	padding: 5px 15px !important;
+}
+
+.navbar-header {
+	padding-top: 10px 0px;
+}
+
+.nav>li>a {
+    color: #00adef;
+    padding: 10px 15px !important;
+    margin-top: 10px;
+    border: 1px solid #00adef;
+    background-color: transparent;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    color: #8cc63e;
+    border: 1px solid #8cc63e;
+    background-color: transparent !important;
+}
+
+.maincontent {
+	background-color: #fff;
+	margin-top: 60px;
+	max-width: 960px;
+	border-radius: 5px;
+}
+
+.welcomeText {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-success {
+	background-color: #8cc63e !important;
+	border: 1px solid #8cc63e !important;
+	font-size: 24px !important;
+}
+
+.options li {
+	list-style: none;
+	font-size: 24px;
+	padding:10px, 25px;
+	margin:10px auto;
+	max-width: 300px;
+	border: 1px solid #00adef;
+}
+
+.options li:hover, .options li:focus {
+	background-color: #00adef;
+	border: 1px solid #00adef;
+	color: #fff;
+}
+
+.correct {
+	background-color: #8cc63e;
+	border: 1px solid #8cc63e;
+	font-weight: 700;
+	color: #fff;
+}
+
+.wrong {
+	background-color: #ed008c;
+	border: 1px solid #ed008c;
+	font-weight: 700;
+	color: #fff;
+}
+
+.text, .options {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.result {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.result p {
+	font-weight: 700;
+}
+
+/*
+colors:
+pink #ed008c
+blue #00adef
+green #8cc63e
+orange #f7941d
+*/

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timed Trivia</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified Bootstrap CSS & JS and jQuery -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link href='https://fonts.googleapis.com/css?family=Belgrano|Josefin+Slab:400,300,400italic,600,600italic,700,700italic|Cutive' rel='stylesheet' type='text/css'>
+	
+
+</head>
+<body>
+	<nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
+		<div class="container-fluid navbar-content">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="logo">
+					<img src='assets/images/glowgo2_blue.png' id='logo1' alt='glow logo blue' style="opacity: 0;"/>
+					<img src='assets/images/glowgo2_green.png' id='logo2' alt='glow logo green' style="opacity: 0;"/>
+					<img src='assets/images/glowgo2_pink.png' id='logo3' alt='glow logo pink' style="opacity: 0;"/>
+					<img src='assets/images/glowgo2.png' id='logo4' alt='glow logo'/>
+				</div>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li id="startNav"><a id="start" href="#">Start</a></li>
+					<li id="startOverNav" style="display: none;"><a id="startOver" href="#">Start Over</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div class="container-fluid maincontent">
+		
+		<div class="welcomePage">
+			<div class="row12 welcomeHeader">
+				<div class="col-md-12 text-center">
+					<h1>Welcome to Timed Trivia</h1>
+					<p><span class="glyphicon glyphicon-music" aria-hidden="true"></span> One of these things is not like the other. <span class="glyphicon glyphicon-music" aria-hidden="true"></span></p>
+				</div>
+			</div>
+
+			<div class="row12 welcomeVideo">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/m6keZIUJBsQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			
+			<div class="row12">
+				<div class="col-md-12 text-center welcomeText">
+					<p>This song rang in our heads throughout our childhood. It taught us to think critically about about seemingly similar things. Timed Trivia is bringing back the Sesame Street classic by providing you with a group of four options and you have to tell us which one does not belong. True to the rules of the "Street" you will only have 25 seconds to make your choice. When you are ready to begin hit the button below ... </p>
+					<button type="button" class="btn btn-success" id="startButton">Get Started</button>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="questionPage" style="display: none;">
+			<div class="row12">
+				<div class="timer text-center"></div>
+				<div class="text text-center"></div>
+				<div class="result text-center"></div>
+				<div class="options text-center"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+		<!--
+		<div class="answerPage">
+			<div class="row12">
+				<div class="timer text-center"></div>
+				<div class="question text-center"></div>
+				<div class="options text-center"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		-->
+
+		<div class="summaryPage" style="display: none;">
+			
+		</div>
+		
+		
+	</div>
+	
+	
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	
+</body>
+</html>
